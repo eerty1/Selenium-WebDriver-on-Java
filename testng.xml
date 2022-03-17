@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="G:/IntelliJ IDEA Community Edition 2021.2/automation/job1">
+        <classes>
+            <class name="hurt_me_plenty.tests.GoogleCalculatorTests">
+                <methods>
+                    <include name="machineClassCheckTest"/>
+                    <include name="instanceTypeCheckTest"/>
+                    <include name="locationCheckTest"/>
+                    <include name="localSSDCheckTest"/>
+                    <include name="committedUsageCheckTest"/>
+                    <include name="totalCostCheckTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
